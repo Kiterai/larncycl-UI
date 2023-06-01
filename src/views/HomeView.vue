@@ -1,9 +1,18 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import CourcesList from '@/components/CourcesList.vue';
+
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <h1>My Cources</h1>
+    <CourcesList />
 </template>
+
+<style scoped lang="scss">
+
+h1 {
+    margin: 0 1rem;
+}
+
+</style>
